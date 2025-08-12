@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -O3
-LDFLAGS = -lopus
+LDFLAGS = -lopus -lm
 
 SRC = main.c common.c files.c list.c
 OBJ = $(SRC:.c=.o)
